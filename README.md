@@ -4,7 +4,7 @@
 * Python 3.10.
 * Install the requirements mentioned in requirements.txt
 
-##Creating virtual environment
+## Creating virtual environment
 * Create a folder object_tracking before creating virtual environment.
 * Inside object tracking folder install virtual environment.
 * Install Virtualenv using sudo apt install virtualenv.
