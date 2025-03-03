@@ -1,0 +1,100 @@
+@import "@angular/material/theming";
+@import "bootstrap/dist/css/bootstrap.css";
+$fa-font-path: "font-awesome/fonts";
+@import "bootstrap/scss/bootstrap";
+// @import "~fontawesome-4.7/scss/font-awesome.scss";
+@import "material-design-icons/iconfont/material-icons.css";
+
+@import "_colors.scss";
+@import "_fonts.scss";
+@import "_components.scss";
+@import "_sidebar.scss";
+@import "_buttons.scss";
+
+$custom-typography: mat-typography-config(
+  $font-family: '"Poppins", sans-serif;',
+);
+@include mat-core($custom-typography);
+
+$saahas-primary: mat-palette($mat-blue);
+$saahas-accent: mat-palette($mat-pink, A200, A100, A400);
+$saahas-warn: mat-palette($mat-red);
+
+$saahas-theme: mat-light-theme(
+  (
+    color: (
+      primary: $saahas-primary,
+      accent: $saahas-accent,
+      warn: $saahas-warn,
+    ),
+  )
+);
+
+@include angular-material-theme($saahas-theme);
+
+// Width of the form field
+.mat-form-field-appearance-outline
+  .mat-form-field-outline-thick
+  .mat-form-field-outline-end,
+.mat-form-field-appearance-outline
+  .mat-form-field-outline-thick
+  .mat-form-field-outline-gap,
+.mat-form-field-appearance-outline
+  .mat-form-field-outline-thick
+  .mat-form-field-outline-start {
+  border-width: 3px !important;
+}
+
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: "Poppins", sans-serif !important ;
+  overflow-x: hidden !important;
+  // background-color: #ebeff3!important;
+  background-color: #f6f6f6 !important;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #ebebeb;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: #cacaca;
+}
+
+.modal-header {
+  border-bottom-color: #eeeeee;
+  background-color: #fafafa;
+}
+
+.modal-dialog {
+  max-width: 650px !important;
+}
+
+mat-keyboard-container {
+  min-width: 70vw !important;
+  padding: unset !important;
+  bottom: 0% !important;
+  display: flex;
+  justify-content: center;
+}
+mat-keyboard-container mat-keyboard-key .mat-keyboard-key {
+  padding: 0.3% 0.4% !important;
+}
+.mat-keyboard-col {
+  padding: 0.4% !important;
+}
+.mat-keyboard-wrapper {
+  padding: 3% !important;
+}

@@ -1,0 +1,38 @@
+.sidebar {
+  position: fixed;
+  min-width: 20px;
+  font-size: 1em;
+  background-color: #000410;
+  margin-left: -2px;
+}
+
+.sidebar a {
+  display: block;
+  color: $white;
+  padding: 10px;
+  margin: 7px 0px;
+  text-decoration: none;
+}
+
+// .sidebar a:hover {
+//   background-color: #7283909e !important;
+//   border-radius: 5px !important;
+// }
+
+.side-li {
+  height: 60px;
+}
+
+.favicon {
+  background-color: #e6e6e6;
+  height: 78px;
+  width: 78px;
+  position: fixed;
+}
+
+.fvicon {
+  position: absolute;
+  left: 15px;
+  top: 13px;
+  width: 50%;
+}

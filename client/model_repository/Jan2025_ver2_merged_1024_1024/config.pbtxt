@@ -1,0 +1,3 @@
+name: "Jan2025_ver2_merged_1024_1024"
+platform: "tensorflow_savedmodel"
+max_batch_size : 0

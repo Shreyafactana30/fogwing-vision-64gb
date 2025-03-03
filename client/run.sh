@@ -1,0 +1,3 @@
+#!/bin/bash
+
+python pipeline_images2.py --input_directory=/home/factana/object_tracking/images --predicted_images=/home/factana/object_tracking/predicted_images --height=1024 --width=1024 --model=Jan2025_ver2_merged_1024_1024 --score=0.5 --search_range_x=20 --search_range_y=200 --memory=20 --payloads=/home/factana/object_tracking/payloads/ --config_path=/home/factana/object_tracking/credentials/saahascv_cred.json --image_to_ui=/home/factana/object_tracking/image_to_ui/processed_img.png

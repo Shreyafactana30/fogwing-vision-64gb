@@ -1,0 +1,19 @@
+{
+  "QCORDER": {
+    "GET_AND_SYNC_QCORDERS": "https://api-vision.fogwing.net/edge/v1/qc-order/",
+    "POST_QCORDERS": "https://api-vision.fogwing.net/edge/v1/qc-order/",
+    "UPDATE_QCORDER": "https://api-vision.fogwing.net/edge/v1/qc-order/{}"
+  },
+
+  "SUPPLIER": {
+    "GET_AND_SYNC_SUPPLIERS": "https://api-vision.fogwing.net/edge/v1/supplier/get-by-tenant-id"
+  },
+
+  "PRODUCT": {
+    "GET_AND_SYNC_PRODUCTS": "https://api-vision.fogwing.net/edge/v1/product/get-by-tenant-id"
+  },
+
+  "SHIFTS": {
+    "GET_SHIFTS_TIMING": "https://api-vision.fogwing.net/edge/v1/plant/get-shift-timings"
+  }
+}

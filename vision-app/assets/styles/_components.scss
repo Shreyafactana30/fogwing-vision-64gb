@@ -1,0 +1,89 @@
+.main-window {
+  position: relative;
+  margin-left: 76px;
+  padding: 25px;
+  background-color: #e6e6e6;
+  height: 100%;
+}
+
+.border-radius-point5 {
+  border-radius: 0.6rem !important;
+}
+
+.cursor {
+  cursor: pointer !important;
+}
+
+input[matInput]:disabled {
+  color: rgb(146, 146, 146);
+}
+
+mat-label {
+  color: rgb(146, 146, 146);
+}
+
+.mat-simple-snackbar-action button {
+  color: rgb(44, 44, 44);
+  font-weight: 650;
+  font-size: 16px;
+}
+
+.mat-simple-snackbar {
+  font-size: 16px;
+  height: 30px;
+  width: auto;
+}
+
+.danger-unsuccess {
+  background: $red;
+  color: $white;
+  max-width: 380vw !important;
+  font-weight: 600;
+}
+
+.success-success {
+  background: $mint-leaf;
+  color: $white;
+  max-width: 380vw !important;
+  font-weight: 600;
+}
+
+.warning-warning {
+  background: $yellow;
+  color: $sidebar;
+  max-width: 380vw !important;
+  font-weight: 600;
+}
+
+.info-info {
+  background: $lite_blue;
+  color: $sidebar;
+  max-width: 380vw !important;
+  font-weight: 600;
+}
+
+.mat-select-disabled .mat-select-value {
+  color: #1f1e1e;
+}
+
+mat-label {
+  color: #1f1e1e;
+}
+
+input[matInput]:disabled {
+  color: #1f1e1e;
+}
+
+textarea[matInput]:disabled {
+  color: #1f1e1e;
+}
+
+.mat-checkbox-disabled .mat-checkbox-label {
+  color: #1f1e1e;
+}
+
+.mat-form-field-appearance-outline.mat-form-field-disabled
+  .mat-form-field-outline {
+  color: rgb(175 168 168 / 44%);
+  background-color: #eceaea63;
+}
