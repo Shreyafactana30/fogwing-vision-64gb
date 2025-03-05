@@ -282,6 +282,8 @@ def main(_) -> None:
                             PREDICTION_THRESHOLD.value,
                             
                         )
+                        
+                       
 
                         # image=cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
                         image_new = cv2.cvtColor(image_new, cv2.COLOR_BGR2RGB)
@@ -549,11 +551,13 @@ def payload_data(image_names_list, file_name, PAYLOADS, object_tracking_sub_coun
       
     
 
-
+    '''
     if object_tracking_sub_count:  # checks if the json is empty
         # Append order_code and product_name to object_tracking_sub_count dictionary
         object_tracking_sub_count['order_code'] = order_code #new
         object_tracking_sub_count['product_name'] = product_name #new
+        
+        
 
         resp=requests.put("http://127.0.0.1:7077/fwvision/qcinspection/update_qc_order", json=object_tracking_sub_count)
         
@@ -563,8 +567,10 @@ def payload_data(image_names_list, file_name, PAYLOADS, object_tracking_sub_coun
     
         print(f"Successful requests count: {success_counter}")
         
+        
         print("resp.json()",resp.json())
         print("resp.status_code",resp.status_code)
+        
         
         # Remove order_code and product_name from subcategory_counts
         del object_tracking_sub_count['order_code'] #new
@@ -572,13 +578,16 @@ def payload_data(image_names_list, file_name, PAYLOADS, object_tracking_sub_coun
         
         print("object_tracking_sub_count",object_tracking_sub_count)
         
+        
         if resp.status_code not in {200, 201}:
             return
+        
         
                     
 
     else:
         json_data['others'] = "unknown"
+    '''
 
     predicted_images_path = PREDICTED_IMAGES.value
     payload_data = PAYLOADS.value
