@@ -32,9 +32,9 @@
 * pip3 install -U testresources setuptools==65.5.0
 * Install the Python package dependencies:
 * pip install -U numpy==1.22 future==0.18.2 mock==3.0.5 keras_preprocessing==1.1.2 keras_applications==1.0.8 gast==0.4.0 protobuf==3.20.3 pybind11 cython pkgconfig packaging h5py==3.6.0
-* Install TensorFlow using pip. This command will install the latest version of TensorFlow compatible with JetPack 5.1.2.
-* To check Jetpack version: sudo apt show nvidia-jetpack 
-pip3 install --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v512 tensorflow==2.12.0+nv23.06.
+* Install tensorflow using this command: pip3 install --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v512 tensorflow==2.12.0+nv23.06
+* To check Jetpack version: sudo apt show nvidia-jetpack or jtop
+* Follow this link to install jtop https://jetsonhacks.com/2023/02/07/jtop-the-ultimate-tool-for-monitoring-nvidia-jetson-devices/
 * check tensorflow is installed properly through import tensorflow 
 
  
