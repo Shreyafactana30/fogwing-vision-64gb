@@ -2,7 +2,7 @@
 
 ## Pre-requisites:
 * Python 3.10.
-* Install the requirements mentioned in requirements.txt
+* Install the requirements mentioned in requirements.txt inside virtual environment
 
 ## Creating virtual environment
 * Create a folder object_tracking before creating virtual environment.
