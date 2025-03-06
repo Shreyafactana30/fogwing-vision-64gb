@@ -35,7 +35,16 @@
 * Install tensorflow using this command: pip3 install --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v512 tensorflow==2.12.0+nv23.06
 * To check Jetpack version: sudo apt show nvidia-jetpack or jtop
 * Follow this link to install jtop https://jetsonhacks.com/2023/02/07/jtop-the-ultimate-tool-for-monitoring-nvidia-jetson-devices/
-* check tensorflow is installed properly through import tensorflow 
+* check tensorflow is installed properly through import tensorflow
+
+## Packages Installation
+* pip install -r requirements.txt
+* replace color_property_extracter.py file and labels.py as the syntax is above python 3.8
+* to install model_repository follow steps inside triton_server.sh
+* pip install tritonclient[http]
+*  
+
+
 
  
 
