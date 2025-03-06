@@ -14,7 +14,7 @@
 (Note: Please dont install tensorflow using pip install tensorflow it has a seperate procedure to install tensorflow on Jetson to utilize gpu).
 
 ## Required folders inside object_tracking.
-* After cloning this repo inside object_tracking make sure you create these folders which mentioned below,
+* After cloning this repo inside object_tracking make sure you create these empty folders which are mentioned below,
 * mkdir image_to_ui
 * mkdir images
 * mkdir payloads
