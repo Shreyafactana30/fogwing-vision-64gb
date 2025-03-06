@@ -13,6 +13,14 @@
 * Install the pip packages using command pip install -r requirements.txt 
 (Note: Please dont install tensorflow using pip install tensorflow it has a seperate procedure to install tensorflow on Jetson to utilize gpu).
 
+## Required folders inside object_tracking.
+* After cloning this repo inside object_tracking make sure you create these folders which mentioned below,
+* mkdir image_to_ui
+* mkdir images
+* mkdir payloads
+* mkdir predicted_images
+* mkdir order_status_payloads
+
 ## Install tensorflow inside virtual environment
 * Installing Tensorflow and other packages on Jetson Orin.
 * Follow the instructions below to install TensorFlow in Jetson Orin,
